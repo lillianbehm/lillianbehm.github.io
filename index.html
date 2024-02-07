@@ -1,0 +1,25 @@
+---
+layout: home
+---
+
+<div class="home">
+  <header class="header">
+    <h1 class="site-title">{{ site.title }}</h1>
+    {% if site.description %}
+    <p class="site-description">{{ site.description }}</p>
+    {% endif %}
+  </header>
+
+  <section class="posts-list">
+    <h2 class="posts-list-heading">{{ page.posts_heading | default: "Latest Posts" }}</h2>
+    <ul class="posts-list-items">
+      {% for post in site.posts %}
+      <li>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <p>{{ post.excerpt | markdownify }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
