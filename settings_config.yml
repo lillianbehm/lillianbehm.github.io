@@ -1,8 +1,4 @@
 # Site settings
-title: Lillian Behm
-author:
-  email: your-email@domain.com
-description: "Lily is a PhD student in the Turk-Browne lab at Yale University"
 
 # Build settings
-remote_theme: jekyll/minima
+theme: jekyll-theme-minima
