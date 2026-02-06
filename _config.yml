@@ -1,1 +1,14 @@
-theme: jekyll-theme-minimal
+title: Lillian Behm
+description: Personal website
+
+
+theme: minima
+
+
+header_pages:
+- research.md
+- cv.md
+- contact.md
+
+
+markdown: kramdown
