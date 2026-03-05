@@ -4,5 +4,5 @@ title: CV
 ---
 
 <a href="/Behm_CV_Mar2026.pdf" target="_blank">
-📄 Download CV (PDF)
+Download CV (PDF)
 </a>
