@@ -3,4 +3,6 @@ layout: page
 title: CV
 ---
 
-[Download CV (PDF)]({{ site.baseurl }}/Behm_CV_Mar2026.pdf)
+<a href="/Behm_CV_Mar2026.pdf" target="_blank">
+📄 Download CV (PDF)
+</a>
