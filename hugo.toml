@@ -1,0 +1,109 @@
+baseURL = "https://lillianbehm.github.io/"
+relativeURLs = false
+canonifyURLs = true
+languageCode = 'en-us'
+title = 'Lillian Behm'
+theme = "hugo-kawaii"
+
+enableEmoji = true
+
+[pagination]
+  pagerSize = 6
+  
+[build]
+  writeStats = true
+
+[params]
+  description = "PhD  Candidate at Yale University studying Developmental Cognitive Neuroscience"
+  
+  theme_toggle = false
+  search = false
+  favicon = "/favicon.ico"
+  
+  hero_cta = "About Me"
+  hero_cta_link = "/about/"
+
+  # Footer
+  footer_description = " "
+  copyright = "Kawaii theme"
+  
+  [[params.social]]
+    name = "email"
+    url = "mailto:lillian.behm@yale.edu"
+  
+  [[params.social]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/lillianbehm.bsky.social"
+  
+  [[params.social]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=HlZOhc4AAAAJ&hl=en&oi=ao"
+  
+  [[params.footer_links]]
+    name = "Turk-Browne Lab"
+    url = "https://ntblab.yale.edu/"
+  
+  [[params.footer_links]]
+    name = "Yale Baby School"
+    url = "https://babyschool.yale.edu/"
+  
+  [[params.featured_sections]]
+    title = "Research"
+    description = "Read my latest publications."
+    icon = "🔬"
+    link = "/publications/"
+
+  [[params.featured_sections]]
+    title = "CV"
+    description = "Download my CV."
+    icon = "📄"
+    link = "/Behm_CV_Mar2026.pdf"
+
+  [[params.featured_sections]]
+    title = "Contact"
+    description = "Get in touch with me."
+    icon = "✉️"
+    link = "/contact/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 30
+  
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications"
+    weight = 40
+    
+  [[menu.main]]
+    name = "CV"
+    url = "/Behm_CV_Mar2026.pdf"
+    weight = 45
+    
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 50
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+    guessSyntax = true
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]

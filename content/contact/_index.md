@@ -1,0 +1,32 @@
+### Get in Touch 👋
+
+Whether you have questions about my research, want to collaborate, or just want to say hi, I’d love to hear from you!  
+
+
+<div style="display:flex; flex-direction:column; gap:1rem; margin-top:1rem; align-items:center;">
+
+<!-- Email -->
+<a href="mailto:lillian.behm@yale.edu" style="display:flex; align-items:center; gap:0.5rem; color:#6B46C1; font-weight:bold; text-decoration:none; justify-content:flex-start; width:220px;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+    </svg>
+    lillian.behm@yale.edu
+</a>
+
+<!-- Bluesky -->
+<a href="https://bsky.app/profile/lillianbehm.bsky.social" target="_blank" style="display:flex; align-items:center; gap:0.5rem; color:#6B46C1; font-weight:bold; text-decoration:none; justify-content:flex-start; width:220px;">
+    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"/>
+    </svg>
+    @lillianbehm
+</a>
+
+<!-- Google Scholar -->
+<a href="https://scholar.google.com/citations?user=HlZOhc4AAAAJ&hl=en&oi=ao" target="_blank" style="display:flex; align-items:center; gap:0.5rem; color:#6B46C1; font-weight:bold; text-decoration:none; justify-content:flex-start; width:220px;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+    </svg>
+    Google Scholar
+</a>
+
+</div>
