@@ -57,7 +57,7 @@ enableEmoji = true
     title = "CV"
     description = "Download my CV."
     icon = "📄"
-    link = "/Behm_CV_Mar2026.pdf"
+    link = "https://lillianbehm.github.io/behm_cv_mar2026.pdf"
 
   [[params.featured_sections]]
     title = "Contact"
@@ -83,7 +83,7 @@ enableEmoji = true
     
   [[menu.main]]
     name = "CV"
-    url = "/Behm_CV_Mar2026.pdf"
+    url = "https://lillianbehm.github.io/behm_cv_mar2026.pdf"
     weight = 45
     
   [[menu.main]]
