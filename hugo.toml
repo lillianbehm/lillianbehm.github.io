@@ -57,7 +57,7 @@ enableEmoji = true
     title = "CV"
     description = "Download my CV."
     icon = "📄"
-    link = "https://lillianbehm.github.io/behm_cv_mar2026.pdf"
+    link = "/behm_cv_mar2026.pdf"
 
   [[params.featured_sections]]
     title = "Contact"
